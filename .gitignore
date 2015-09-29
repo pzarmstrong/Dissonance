@@ -1,0 +1,11 @@
+# Executable
+dissonance
+
+# C++
+*.o
+*.d
+
+# Python
+*.pyc
+*.pyo
+__pycache__/
