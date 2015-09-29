@@ -1,5 +1,7 @@
-# Executable
-dissonance
+# Output files
+*.a
+demo/demo
+test/test
 
 # C++
 *.o
