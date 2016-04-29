@@ -4,7 +4,7 @@ int main(int, char**)
 	return 0;
 }
 
-string requestComment()
+void requestComment()
 { // <- proper brace placement - Allman agrees!
-	return "Great game, Moddington!";
+	std::cout << "Great game, Moddington!";
 }
