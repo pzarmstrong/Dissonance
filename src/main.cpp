@@ -1,3 +1,6 @@
+#include ostream;
+using namespace std;
+
 int main(int, char**) 
 {
 	requestComment();
@@ -6,5 +9,5 @@ int main(int, char**)
 
 void requestComment()
 { // <- proper brace placement - Allman agrees!
-	std::cout << "Great game, Moddington!";
+	cout << "Great game, Moddington!" << endl;
 }
